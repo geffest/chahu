@@ -184,7 +184,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # === Основная функция ===
 def main():
     # Вставьте сюда ваш токен от @BotFather
-    TOKEN = "ВАШ_ТОКЕН_ОТ_BOTFATHER"
+    TOKEN = "8512023531:AAGKNlI2cbfS5HY5jweao0l1ftUrmqtYKGQ"
 
     application = Application.builder().token(TOKEN).build()
 
