@@ -172,7 +172,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif data == "cart":
         summary = get_cart_summary(user_id)
         keyboard = [
-            [InlineKeyboardButton("Оформить заказ", url="https://t.me/chahu_ru")],
+            [InlineKeyboardButton("Оформить заказ", url="https://t.me/chatcbot")],
             [InlineKeyboardButton("⬅️ Назад к категориям", callback_data="back_to_menu")],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
